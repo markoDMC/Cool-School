@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrol"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Activity$PlaceholderFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/idHrvatski"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anezzfkt2"
+            android:fontFamily="@font/schoolbell"
+            android:lineSpacingExtra="10sp"
+            android:text="Hrvatski"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/idMatematika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anezzfkt2"
+            android:fontFamily="@font/schoolbell"
+            android:text="Matematika"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+
+        <Button
+            android:id="@+id/idLikovni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anezzfkt2"
+            android:fontFamily="@font/schoolbell"
+            android:text="Likovni"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/idEngleski"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anezzfkt2"
+            android:fontFamily="@font/schoolbell"
+            android:text="Engleski"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/idPrirodaIDrustvo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anezzfkt2"
+            android:fontFamily="@font/schoolbell"
+            android:text="Priroda i Društvo"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/idGlazbeni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/anezzfkt2"
+            android:fontFamily="@font/schoolbell"
+            android:text="Glazbeni"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".New_Post"
+    >
+
+  <!--  <ImageView
+        android:id="@+id/post_img"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_camera" /> -->
+
+  <ImageView
+      android:id="@+id/new_post_image"
+      android:layout_width="match_parent"
+      android:layout_height="400dp"
+      android:scaleType="centerCrop"
+      app:layout_constraintTop_toBottomOf="@+id/textView"
+      app:srcCompat="@drawable/kamera_post"
+      tools:layout_editor_absoluteX="0dp" />
+
+  <EditText
+      android:id="@+id/text_desc"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:hint="Dodaj komentar"
+      android:inputType="textMultiLine"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/new_post_image" />
+
+  <Button
+      android:id="@+id/post_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="128dp"
+      android:layout_marginStart="128dp"
+      android:layout_marginTop="32dp"
+      android:background="#86d1dd"
+      android:fontFamily="@font/schoolbell"
+
+      android:lineSpacingExtra="18sp"
+      android:text="Objavi"
+      android:textColor="@color/cardview_light_background"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.491"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/text_desc"
+      app:layout_constraintVertical_bias="0.055"
+      tools:background="#59afcf" />
+
+  <ProgressBar
+      android:id="@+id/progressBar2"
+      style="?android:attr/progressBarStyle"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:indeterminate="true"
+      android:visibility="invisible"
+      app:layout_constraintBottom_toBottomOf="@+id/new_post_image"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/new_post_image" />
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="126dp"
+      android:layout_height="22dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:fontFamily="sans-serif-condensed"
+      android:text="Dodaj Fotografiju:"
+      android:textColor="@android:color/black"
+      android:textSize="16sp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
